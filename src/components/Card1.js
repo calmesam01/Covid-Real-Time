@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 function Card1 (props) {
     return (
         <div className = "card" style = {{margin: 100, marginTop: 10, textAlign: "center"}}>

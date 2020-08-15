@@ -1,9 +1,10 @@
 import React from "react";
+import FreeTextWithoutLoading from "./FreeTextWithoutLoading";
 
-function FreeText () {
+function FreeText (props) {
     return (
         <div>
-            <h2 style= {{textAlign: "center"}}>Want some real-time information on Covid-19 cases around the globe? </h2>
+            {props.loading === false && <FreeTextWithoutLoading />}
         </div>
     )
 }
